@@ -8,6 +8,7 @@
     --Primary-color-black: #152427;
     --text-color-black-gray: #575d5e;
     --Primary-color-black-green: #143c3c;
+    --Secondary-color-light-green: #e2eddf;
 }
 
 html,
@@ -272,4 +273,78 @@ a {
     position: absolute;
     bottom: 95px;
     right: 37px;
+}
+/*----------------- header brand ---------------*/
+.header-brand {
+    height: 201px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100.5px;
+    background: var(--Secondary-color-light-green, #e2eddf);
+    font-family: "Poppins", sans-serif;
+    padding: 0 122px;
+}
+
+.header-brand__item {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 10px;
+}
+
+.header-brand__item:hover {
+    box-shadow: inset 0px 2px 6px 2px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #143c3c;
+    cursor: pointer;
+}
+
+.header-brand__text-google {
+    color: var(--Primary-color-black-green, #143c3c);
+    font-family: inherit;
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+
+.header-brand__icon-slack {
+    width: 26px;
+    color: var(--Primary-color-black-green, #143c3c);
+    filter: drop-shadow(2px 4px 1px rgba(0, 0, 0, 0.2));
+}
+
+.header-brand__text-slack {
+    color: var(--Primary-color-black-green, #143c3c);
+    font-family: inherit;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.header-brand__icon-discord {
+    color: var(--Primary-color-black-green, #143c3c);
+}
+
+.header-brand__text-discord {
+    color: #163c35;
+    font-family: inherit;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.header-brand__text-Riotinto {
+    color: var(--Primary-color-black-green, #143c3c);
+    font-family: "Sonsie One", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.header-brand__icon-heroku {
+    color: var(--Primary-color-black-green, #143c3c);
+}
+
+.header-brand__text-heroku {
+    color: var(--Primary-color-black-green, #143c3c);
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1.1995px;
 }
