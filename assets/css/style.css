@@ -1054,3 +1054,122 @@ a {
     border-top: 1px solid #c4c4c4;
     margin-top: auto;
 }
+
+/*=================== Footer ===================*/
+.footer {
+    background-color: #143c3c;
+    padding: 72px 130px 50px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.footer__content {
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--text-color-white, #fff);
+}
+
+.footer-input {
+    padding: 20px 0 26px 0;
+    border-bottom: 1px solid #6a8383;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-input__link {
+    transition: 0.5s ease-out;
+}
+
+.footer-input__box {
+    min-width: 354px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-right: 10px;
+}
+
+.footer-input__box::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--Secondary-color-gray, #6a8383);
+}
+
+.footer-input__box:focus + .footer-input__link {
+    transform: translateX(-15px);
+}
+
+.footer-social {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 47px;
+}
+
+.footer-social__item {
+    margin-right: 22px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fbfbfb;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.footer-social__item:hover {
+    background-color: #a75325;
+}
+
+.footer-link {
+    font-family: "Public Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link__holder {
+    margin-right: 50px;
+}
+
+.footer-link__title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    color: var(--text-color-white, #fff);
+}
+
+.footer-link__li {
+    margin-top: 5px;
+}
+
+.footer-link__item {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.25;
+    color: #6a8383;
+}
+
+.footer-link__item:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.footer__dash {
+    width: 1140px;
+    height: 1px;
+    background: linear-gradient(90deg, #143c3c 2.28%, #295a5a 55.65%, rgba(38, 82, 82, 0) 102.06%);
+}
