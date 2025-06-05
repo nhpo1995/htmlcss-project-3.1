@@ -779,7 +779,7 @@ a {
     right: 92px;
 }
 
-/*=================== Process ===================*/
+/*=================== Feature ===================*/
 .feature {
     background-color: #143c3c;
     padding: 116px 130px 63px;
@@ -877,3 +877,75 @@ a {
     top: 89px;
     right: -48px;
 }
+
+/*=================== Help ===================*/
+.help {
+    padding: 140px;
+}
+
+.help__heading {
+    margin: 0 auto;
+    text-align: center;
+    width: 520px;
+}
+
+.help__desc {
+    width: 547px;
+    text-align: center;
+    margin: 20px auto 103px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.62;
+    color: var(--text-color-light-gray, #7d8188);
+}
+
+.help-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.help-group__item {
+    width: 350px;
+    height: 362px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 160px;
+    border: 1.5px solid #cecece;
+    background: #fff;
+    transition: transform 0.5s ease-in-out;
+}
+
+.help-group__item:hover {
+    transform: translateY(-59px);
+    box-shadow: 0px 36px 100px 0px rgba(111, 120, 111, 0.2);
+    border: none;
+}
+
+.help-group__icon {
+    color: #143c3c;
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+}
+
+.help-group__title {
+    color: #152427;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 34px;
+}
+
+.help-group__desc {
+    width: 286px;
+    color: var(--text-color-light-gray, #7d8188);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71;
+    margin-top: 9px;
+}
+
+/*=================== Blog ===================*/
